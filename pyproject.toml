@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bd-hw-1"
+version = "0.1.0"
+description = ""
+authors = ["Чумаков Михаил Дмитриевич <mikhail.chumakov@sbermarket.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.25"
+notebook = "^7.0.8"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+openpyxl = "^3.1.2"
+pydantic = "^2.6.1"
+pydantic-settings = "^2.1.0"
+pyarrow = "^15.0.0"
+loguru = "^0.7.2"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.1"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
